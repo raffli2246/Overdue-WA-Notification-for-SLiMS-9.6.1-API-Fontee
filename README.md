@@ -1,2 +1,2 @@
 # Overdue WA Notification for SLiMS 9.6.1 with Fontee
-Merupakan code php untuk kustomisasi pengiriman notifikasi keterlambatan peminjaman buku di aplikasi SLiMS 9.6.1 yang menggunakan API Fontee
+Merupakan code php untuk kustomisasi pengiriman notifikasi keterlambatan peminjaman buku di aplikasi SLiMS 9.6.1 yang menggunakan API Fontee. Merupakan modifikasi dari versi sebelumnya karya Mas Arie Nugraha dan Akun Youtube Mas Adi Kiswanto yang sebelumnya menggunakan WhatsApp API dari Whacenter. Kemudian saya membuat modifikasi agar dapat berjalan dengan menggunakan Unofficial WhatsApp API dari Fontee.
