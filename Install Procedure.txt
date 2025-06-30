@@ -1,0 +1,16 @@
+TUTORIAL MEMBUAT NOTIFIKASI KETERLAMBATAN PENGEMBALIAN BUKU MELALUI WHATSAPP API FONTEE.
+
+A. UBAH CODING
+-Buka folder directory C:\xampp\htdocs\slims9.6.1\admin\modules\membership. kemudian, buat file php. baru overdue_wa . copy dan paste code overdue_wa.
+-masih di file directory yang sama buka file member_base_lib.inc.php . Kemudian, hapus, dan paste code member_base_lib.inc.php yang ada pada tutorial.
+-Buka folder directiry C:\xampp\htdocs\slims9.6.1\admin\modules\reporting\customs kemudian buka file  overdued_list . copy dan paste code overdued_list.php yang ada pada tutorial.
+
+B. API FONTEE
+- Buka https://md.fonnte.com daftarkan akun whatsApp yang ingin dijadikan sebagai pengirim pesan.
+- Klik menu device, dan Add Device.
+- kemudian connect device, hingga terdapat keterangan device “connect”.
+
+C. UBAH “Autorized” SESUAI TOKEN.
+- Pada Menu Device Fontee, Klik Token pada device yang dipilih sebagai no wa pengirim, hingga timbul keterangan “Token Copied to Clipboard”.
+- Buka file member_base_lib.inc.php , ubah token pada baris 302 pada code “autorization” paste token.
+
